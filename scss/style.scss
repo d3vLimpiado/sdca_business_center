@@ -1,0 +1,8 @@
+@use "./var";
+@use "./_reset.scss";
+@use "./nav";
+
+body {
+  display: grid;
+  grid-template-rows: 100px 50px 1fr 400px;
+}
